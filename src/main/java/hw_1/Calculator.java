@@ -3,8 +3,8 @@ package hw_1;
 public class Calculator {
     public static void main(String[] args) {
         System.out.println(sum(5, 5));
-        System.out.println(mult(5, 5));
-        System.out.println(div(5, 5));
+        System.out.println(multiply(5, 5));
+        System.out.println(division(5, 5));
         System.out.println(substract(5, 5));
 
     }
@@ -12,10 +12,10 @@ public class Calculator {
     static int sum(int x, int y) {
         return x + y;
     }
-    static int mult(int x, int y) {
+    static int multiply(int x, int y) {
         return x * y;
     }
-    static int div(int x, int y) {
+    static int division(int x, int y) {
         return x / y;
     }
     static int substract(int x, int y) {

@@ -7,25 +7,20 @@ import static org.testng.Assert.assertEquals;
 public class CalculatorTestNG {
     @Test
     public void shouldHaveCorrectSum() {
-        int result = Calculator.sum(3, 5);
-        assertEquals(8, result);
+        assertEquals(8, Calculator.sum(3, 5));
     }
     @Test
-    public void ShouldHaveCorrectionMult() {
-        int result = Calculator.mult(3, 3);
-        assertEquals(9, result);
+    public void shouldHaveCorrectionMultiply() {
+        assertEquals(9, Calculator.multiply(3, 3));
     }
 
     @Test
-    public void ShouldHaveCorrectionDiv() {
-        int result = Calculator.div(3, 3);
-        assertEquals(1, result);
+    public void shouldHaveCorrectionDivision() {
+        assertEquals(1, Calculator.division(3, 3));
     }
 
     @Test
-    public void ShouldHaveCorrectionSubstract() {
-        int result = Calculator.substract(3, 3);
-        assertEquals(0, result);
+    public void shouldHaveCorrectionSubstract() {
+        assertEquals(0, Calculator.substract(3, 3));
     }
-
 }
